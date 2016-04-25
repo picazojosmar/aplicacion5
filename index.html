@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Primera Aplicacion</title>
+
+<!-- grupo CSS -->
+<link rel="stylesheet" href="css/app5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!-- grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/Moon-Earth-2.PNG','imagenes/cambio-climatico--644x362.jpg','imagenes/soluciones-y-consecuencias-del-cambio-climtico-1-728.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>DÍA DE LA TIERRA</h1>
+  </div>
+     <div>
+       <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+       <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>FECHA CONMEMORATIVA</h2>
+    
+         </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+           <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>IMPORTANCIA DE LA TIERRA </h2>
+        
+           </a>
+           </li>
+           <li class="ui-first-child ui-last-child">
+           <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>CAMBIO CLÍMATICO</h2>
+         
+           </a>
+           </li>
+           <li class="ui-first-child ui-last-child">
+               <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               <h2>CUIDADOS SOBRE LA TIERRA</h2>
+           
+               </a>
+                 </ul>
+                  <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>REFLEXION</h1>
+          <div>
+          <p>LA TIERRA ES SUFICIENTE PARA TODOS</p>
+          <P>PERO NO PARA LA VORACIDAD DE LOS CONSUMIDORES</p>
+          <!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow2.html" style="width:1020px;height:409px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+           </div>
+  
+     </div>
+     
+                 
+</div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>  
+       <h4>Aplicacion Cinco</h4>
+    <img src="imagenes/tierra.png" width="46" height="46">
+   </div>
+     <h4>Óscar Josmar Martínez Picazo</h4>
+     </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>FEACHA </h1>
+  </div>
+  <div data-role="content" align="center">
+  <div>
+  <!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:100%;height:50%;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+    <p>El Día de la Tierra es un día celebrado en muchos países el 22 de abril. Su promotor, el senador estadounidense Gaylord Nelson, instauró este día para crear una conciencia común a los problemas de la superpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra. Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre, así como lo han expresado distintas culturas a lo largo de la historia, demostrando la interdependencia entre sus ecosistemas y los seres vivos que la habitamos.1</p>
+    </div>
+    </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>  
+       <h4>Aplicacion Cinco</h4>
+    <img src="imagenes/tierra.png" width="46" height="46">
+   </div>
+     <h4>Óscar Josmar Martínez Picazo</h4>
+     </div>
+   </div>
+   </div>
+   
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>IMPORTANCIA SOBRE LA TIERRA </h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','imagenes/Moon-Earth-2.PNG',1)"><img src="imagenes/turtle_biodiversity_zoom.jpg" width="476" height="320" id="Image4"></a>
+<p>El Planeta Tierra es el planeta donde nosotros vivimos y habitamos. Si uno pensara en todo lo que contiene nuestro planeta, en la cantidad de especies que conviven, en las obras monumentales que el hombre ha creado en él, termina por darse cuenta que la Tierra es inmensa y que ofrece un equilibrio perfecto en cuanto naturaleza, que lamentablemente el hombre se ha encargado de manipular aun cuando se conozca que dicha manipulación trae serios problemas poniendo en peligro especies de seres vivos, como está ocurriendo con especies vegetales y animales.
+  
+  ... de Importancia: http://www.importancia.org/planeta-tierra.php</p></div>
+      </div>
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>  
+       <h4>Aplicacion Cinco</h4>
+    <img src="imagenes/tierra.png" width="46" height="46">
+   </div>
+     <h4>Óscar Josmar Martínez Picazo</h4>
+     </div>
+       </div>
+      </div>
+       
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>CAMBIO CLIMATICO</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/cambio-climatico--644x362.jpg',1)"><img src="imagenes/anomalia-temperaturas-2000vs-previo1.jpg" width="600" height="431" id="Image5"></a>
+<p>El Cambio Climático es un cambio significativo y duradero de los patrones locales o globales del clima, las causas pueden ser naturales, como por ejemplo, variaciones en la energía que se recibe del Sol, erupciones volcánicas, circulación oceánica, procesos biológicos y otros, o puede ser causada por influencia antrópica (por las actividades humanas), como por ejemplo, a través de la emisión de CO2 y otros gases que atrapan calor, o alteración del uso de grandes extensiones de suelos que causan, finalmente, un calentamiento global.</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/soluciones-y-consecuencias-del-cambio-climtico-1-728.jpg',1)"><img src="imagenes/image-68786.jpg" width="570" height="380" id="Image6"></a></div>
+      </div>
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>  
+       <h4>Aplicacion Cinco</h4>
+    <img src="imagenes/tierra.png" width="46" height="46">
+   </div>
+     <h4>Óscar Josmar Martínez Picazo</h4>
+     </div>
+     </div>
+    </div>
+    
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>PLANETA TIERRA</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+        <h1>cuidado del medio ambiente</h1>
+      
+<div>
+<img src="imagenes/3r.png" width="660" height="220">
+<p> 1.- Separa la basura: En un bote coloca los restos de comida (esto es la basura orgánica), y en otro deposita el cartón, vidrio, papel y plástico que ya no necesitas. Con esto ayudarás a que el proceso de reciclaje sea más fácil. Además, los restos inorgánicos puedes venderlos o reutilizarlos.</p>
+
+<p>2.- Lleva tus propias bolsas: Seguramente tienes bolsas de tela en casa, cuando vayas al supermercado evita las bolsas de plástico pues éstas tardan en degradarse 150 años.</p>
+
+<p>3.- Consume la menor cantidad de productos desechables: Productos como los trastes de plástico y unicel generan una gran cantidad de basura. Piensa dos veces antes de emplearlos en tu próxima reunion. Además, desintegrarse en el ambiente les lleva de 100 a mil años.</p>
+
+<p>4.- Prefiere las pilas recargables en vez de las communes: Así evitarás estar comprando y desechando baterías, además las pilas son muy dañinas y contaminan el agua. También usa focos ahorradores, cambia tu calentador por uno solar, y reutiliza el agua que sale de tu lavadora para el patio o el baño.</p>
+
+<p>5.- Modera el uso de pañuelos faciales: Mientras menos pañuelos, servilletas y papel de baño uses, estarás generando menos basura. Incentiva a tus hijos para que hagan lo mismo.</p>
+    
+</div>
+   </div>
+    
+  </div>
+   <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+        <h1>cuidados del planeta </h1>
+<p>El icono de la pequeña planta representa el crecimiento organico, un ingrediente clave para sostener la vida en la Tierra.</p>
+
+<p>El cuidado de la Tierra se puede tomar como el cuidado del suelo vivo. El estado del suelo suele ser la mejor medida de la salud y el bienestar de la sociedad. Hay muchas buenas tecnicas para cuidar el suelo, pero el mejor metodo para ver si el suelo esto sano es ver cuanta vida crece ahí.</p>
+
+<p>Nuestros bosques y ríos son los pulmones y las venas del planeta, que ayudan a la Tierra a vivir y respirar, manteniendo muchas diversas formas de vida. Todas las formas de vida tienen su propio valor intranseco, y necesitan ser respetadas por las funciones que cumplen , aunque no las veamos son utiles para nuestras necesidades.</p>
+
+<p>Reduciendo nuestro consumo de cosas, reducimos el impacto en el medio ambiente, lo cual es el mejor lugar para cuidar todas cosas vivas.</p>
+<img src="imagenes/ethical_principles_image2.jpg" width="417" height="393"> </div>
+   </div>
+
+
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>  
+       <h4>Aplicacion Cinco</h4>
+    <img src="imagenes/tierra.png" width="46" height="46">
+   </div>
+     <h4>Óscar Josmar Martínez Picazo</h4>
+     </div>
+   </div>
+    
+    
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>GUSTOS E INTERESES</h1>
+    </div>
+   <div data-role="content" align="center">
+     <div>
+       <h2>Mi otro gusto es tocar el acordeon </h2></div>
+       <img src="imagenes/pasatiempo.jpg" width="50%" height="50%">
+      </div>
+     <div data-role="footer" data-theme="a">
+       <h4>Aplicacion Uno, OJMP</h4>
+      </div>
+     </div>
+    </div>
+    
+    
+</body>
+</html>
